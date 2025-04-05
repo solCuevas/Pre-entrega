@@ -223,7 +223,6 @@ footer {
       transform: translateY(0);
   }
 }
-
 /* Responsividad */
 @media (max-width: 768px) {
   .navbar .navbar-brand {
