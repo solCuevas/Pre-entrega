@@ -1,0 +1,33 @@
+/* Sección Principal (Header) */
+header {
+    background-color: #0099cc; /* Azul brillante */
+    color: #1F1F1F; /* Gris oscuro en lugar de blanco */
+    text-align: center;
+    padding: 80px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+header .btn {
+    background-color: #ffcc00;
+    color: #1F1F1F; /* Gris oscuro */
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+header .btn:hover {
+    background-color: #e6b800; /* Dorado más oscuro */
+}
