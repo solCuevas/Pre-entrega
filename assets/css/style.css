@@ -1,6 +1,5 @@
-
 * {
-  padding: o;
+  padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
@@ -66,6 +65,19 @@ header .btn {
 
 header .btn:hover {
   background-color: #e6b800; /* Dorado más oscuro */
+}
+form input,
+form textarea {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border-color: #56CCF2;
+  box-shadow: 0 0 5px rgba(86, 204, 242, 0.5);
 }
 
 /* Footer */
@@ -222,7 +234,12 @@ footer {
       opacity: 1;
       transform: translateY(0);
   }
+}.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
 }
+
 /* Responsividad */
 @media (max-width: 768px) {
   .navbar .navbar-brand {
@@ -268,7 +285,4 @@ footer {
   .navbar .navbar-nav .nav-link {
     font-size: 0.8rem;
   }
-}/*# sourceMappingURL=style.css.map */
-
-
-
+}/*# sourceMappingURL
